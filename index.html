@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto LOP 2026</title>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+
+  <script type="module" crossorigin src="/assets/index-DUfLnJap.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Cn6QiO2M.css">
+</head>
+<body>
+
+    <div id="cabecalho">
+
+        <div id="captura_bloco">
+
+            <h3 id="h3_flagc"> Controle com a câmera:&nbsp; </h3>
+            <span id="estado_da_flag"> OFF </span>
+
+        </div>
+
+        <div>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</div>
+
+        <div id="contagem_bloco">
+
+            <h3 id="h3_moedas"> Moedas coletadas:&nbsp; </h3>
+            <span id="quantidade_de_moedas"> 0 </span>
+
+        </div>
+
+    </div>
+
+    <div id="video_e_canvas">
+        <canvas id="canvas1" width="1064" height="680"></canvas>
+        <!--<div id="info">Um ônibus equipado</div>-->
+        <video id="meu_video" width="300" height="300"></video>
+        <!--<canvas id="meu_canvas"></canvas>-->
+    </div>
+
+</body>
+</html>
