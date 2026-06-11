@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando pegar o vídeo</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+
+</head>
+<body>
+
+    <script type="module" src="src/movenet_chatgpt"></script>
+
+    <div id="video_div" style="display: block; position: relative; text-align: center;">
+        <video id="meu_video" width="640" height="480" autoplay></video>
+    </div>
+
+    <br/>
+
+    <div id="botao_div" style="display: block; position: relative; text-align: center;">
+        <button id="iniciar_camera">Iniciar Câmera</button>
+    </div>
+
+    <canvas id="meu_canvas"></canvas>
+</body>
+</html>

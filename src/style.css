@@ -1,0 +1,75 @@
+
+
+body{
+    margin: 0;
+    height: 100%;
+    /*    overflow: hidden; */
+}
+
+#cabecalho {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#contagem_bloco {
+    height: 60px;
+    width: 250px;
+    background-color: #0e0049;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+#captura_bloco {
+    height: 60px;
+    width: 250px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+#h3_moedas {
+    color: white;
+}
+#h3_flagc {
+    color: white;
+}
+
+#quantidade_de_moedas {
+    color: white;
+}
+#estado_da_flag {
+    color: white;
+}
+
+#canvas1 {
+    display: block;
+    margin: 0 auto;
+}
+
+#meu_video {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#video_e_canvas {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
